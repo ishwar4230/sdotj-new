@@ -1,0 +1,64 @@
+#update-hotel-detail{
+    width: 90%;
+    min-height: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(202, 189, 189, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    
+}
+#update-details-heading{
+    height: 10vh;
+    font-size: 200%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius:4vh ;
+}
+.update-input-box{
+    height: 10vh;
+   
+    margin-top: 5vh;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius:4vh ;
+    overflow: hidden;
+}
+#update-input-box-details{
+    height: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius:4vh ;
+    overflow: hidden;
+}
+.update-text-box{
+    width:100%;
+    height: 100%;
+    font-size: 200%;
+    border: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+#update-detail-submit{
+    width: 80%;
+    height: 6vh;
+    margin-bottom: 5vh;
+    border-radius: 3vh;
+    font-size: 130%;
+    background-color: rgb(139, 139, 230);
+}
+#update-detail-submit:hover{
+    background-color: rgb(76, 76, 150);
+}
